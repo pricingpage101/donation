@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.info-section .content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.info-section img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.info-section .text-content {
+  flex: 2;
+  max-width: 600px;
+}
+
+.info-section h2 {
+  color: #4CAF50;
+}
+
+.donation-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.donation-section h2 {
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.account-info {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#copy-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#copy-btn:hover {
+  background-color: #45a049;
+}
+
+.donation-note {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
